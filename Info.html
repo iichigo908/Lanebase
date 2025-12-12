@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>LANEBASEβ お問い合わせ</title>
+<link href="../css/Info.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+    <a href="../html/home.html">
+        <img class="homebutton" src="../img/LANEBASELogo1.png" width="auto" height="70vh" >
+    </a>
+    <a href="../html/map.html">ホーム</a>
+    <a href="../html/Info.html">問い合わせ</a>
+    <a href="../html/Donate.html">寄付</a>
+    </header>
+    <h1 class="Title">お問い合わせ</h1>
+    <div class="box">
+        <h1 class="SubTitle">問い合わせ</h1>
+        <div class="Name">
+            <h2>お名前</h2>
+            <input type="text" name="name" size="20">
+        </div>
+        <div class="Name">
+            <h2>種類</h2>
+            <select name="inquiry-type" style="font-size: 20vw;">
+                <option value="question">質問</option>
+                <option value="feedback">フィードバック</option>
+                <option value="bug-report">バグ報告</option>
+                <option value="other">その他</option>
+            </select>
+        </div>
+        <div class="Name">
+            <h2>内容</h2>
+            <textarea name="inquiry-content" rows="10" cols="50"></textarea>
+        </div>
+        <div class="Name">
+            <button type="submit" style="font-size: 5vw; border-radius: 20px;">送信(準備中*送信不可)</button>
+        </div>
+        <p>メールアドレス：iichigo396@gmail.com</p>
+    </div>
+</body>
+<script src="../java/js.js"></script>
+</html>
