@@ -1,0 +1,130 @@
+.MateLaneText {
+    font-size: 60px;
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro","メイリオ",Meiryo,sans-serif;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    max-height: 1000px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro","メイリオ",Meiryo,sans-serif;
+}
+
+header a {
+    color: black;
+    font-family: 'Kaisei Decol', serif;
+    text-decoration: none;;
+    font-size: 3vw;
+    margin-right: 5vw;
+    white-space: nowrap;
+    padding: 2% 5%;
+}
+
+header a:hover {
+    color: rgb(168, 168, 255);
+    text-decoration: underline;
+}
+
+
+body {
+    margin: 0;
+    padding-top: 10%; /* ヘッダーの高さと同じにする */
+    width: auto;
+}
+
+h1 {
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro","メイリオ",Meiryo,sans-serif;
+    text-align: center;
+    font-size: 8vw;
+    margin-top: 20px;
+}
+
+.Center {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: rgba(255, 255, 0, 0.7);
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro","メイリオ",Meiryo,sans-serif;
+    font-size: 1.5vw;
+}
+
+.Center a {
+    text-decoration: none;
+    color: blue;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 2%;
+    font-size: 1vw;
+}
+
+.CenterTitle {
+    margin: auto 0 auto 5%;
+    font-size: 3vw; 
+    font-family: 'Kaisei Decol', serif;
+    white-space: nowrap;
+}
+
+.CenterInfo {
+    margin: auto 5vw auto auto;
+    text-align: right;
+    font-size: 3vh;
+    font-family: 'Kaisei Decol', serif;
+    white-space: nowrap;
+}
+
+.CenterInfo a {
+    font-size: 3vh;
+}
+
+/*fadein*/
+.fadein {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fadein.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*fontOptions*/
+
+.kaisei-decol-regular {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dotgothic16-regular {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.train-one-regular {
+  font-family: "Train One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*fontOptions end*/
