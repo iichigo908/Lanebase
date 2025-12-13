@@ -2,7 +2,7 @@
 html{
     width: 100vw;
     margin: 0 ;
-    padding: 0
+    padding: 0 ;
 }
 
 header {
@@ -63,7 +63,7 @@ header a:hover {
     text-shadow: 2px 2px 4px #000000;  
     word-break: keep-all;
     white-space: normal;
-    padding: 10vh 0 10vh 0;
+    padding: 20vh 0 10% 0;
     background-color: yellow;
 }
 
