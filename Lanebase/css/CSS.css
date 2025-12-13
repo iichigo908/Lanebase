@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+.body {
+    position: center;
+    margin: 0 5vh 0 5vh;
+    border: 1px;
+}
 
 header {
     position: fixed;
