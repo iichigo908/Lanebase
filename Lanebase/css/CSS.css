@@ -1,10 +1,10 @@
-.html{
+html{
     width: 100vw;
     margin: 0 ;
     padding: 0;
 }
 
-.body {
+body {
     position: center;
     width: 90vw;
     border: 1px;
