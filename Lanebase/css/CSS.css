@@ -63,7 +63,7 @@ header a:hover {
     text-shadow: 2px 2px 4px #000000;  
     word-break: keep-all;
     white-space: normal;
-    padding: 20vh 0 30vh 0;
+    padding: 20vh 0 0 0;
     background-color: yellow;
 }
 
@@ -94,6 +94,7 @@ header a:hover {
 .Mokuji {
     font-size: 6vw;
     font-family: "Kaisei Decol", serif;
+    background-color: green;
 
 }
 .Mokuji_text {
@@ -101,6 +102,7 @@ header a:hover {
     font-family: "Kaisei Decol", serif;
     margin-bottom: 5%;
     margin-right: 5vw;
+    background-color: red
 }
 
 .Mokuji2 {
