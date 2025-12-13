@@ -6,7 +6,6 @@
 }
 
 .body {
-    position: center;
     margin: 0 5vh 0 5vh;
     border: 1px;
 }
@@ -51,7 +50,7 @@ header a:hover {
     color: black;
     padding: 24px 40px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 10%;
     margin-left: 10%;
     border: #000000 solid 2px;
 }
