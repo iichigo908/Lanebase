@@ -1,9 +1,4 @@
 
-html{
-    width: 100vw;
-    margin: 0 ;
-    padding: 0 ;
-}
 
 header {
     position: fixed;
@@ -63,7 +58,7 @@ header a:hover {
     text-shadow: 2px 2px 4px #000000;  
     word-break: keep-all;
     white-space: normal;
-    padding: 20vh 0 0 0;
+    padding: 10% 0 10% 0;
     background-color: yellow;
 }
 
@@ -92,35 +87,34 @@ header a:hover {
 }
 
 .Mokuji {
-    font-size: 6vw;
+    font-size: 6%;
     font-family: "Kaisei Decol", serif;
     background-color: green;
 
 }
 .Mokuji_text {
-    font-size: 2vw;
+    font-size: 2%;
     font-family: "Kaisei Decol", serif;
     margin-bottom: 5%;
-    margin-right: 5vw;
+    margin-right: 5%;
     background-color: red
 }
 
 .Mokuji2 {
-    font-size: 6vw;
+    font-size: 6%;
     font-family: "Kaisei Decol", serif;
     position: relative;
     text-align: right;
-    margin-right: 5vw;
+    margin-right: 5%;
     width: auto;
-    font-size: 60px;
 }
 
 .Mokuji2_text {
-    font-size: 2vw;
+    font-size: 2%;
     font-family: "Kaisei Decol", serif;
     position: relative;
     text-align: right;
-    margin: 2vw 0 0 0;
+    margin: 2% 5% 0 0;
     width: auto;
     margin-bottom: 5%;
 }
