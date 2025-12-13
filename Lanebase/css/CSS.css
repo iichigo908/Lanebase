@@ -68,6 +68,7 @@ header a:hover {
     text-shadow: 2px 2px 4px #000000;  
     word-break: keep-all;
     white-space: normal;
+    padding: 20px 0 20px 0;
 }
 
 
