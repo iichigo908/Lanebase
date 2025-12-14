@@ -91,13 +91,13 @@ header a:hover {
 }
 
 .Mokuji {
-    /* 最小1.8rem | SP:2rem | TB:2.5rem | PC:3rem | 最大3.2rem */
-	font-size: clamp(1.8rem, calc(1.25vw + 1.5rem), 3.2rem);
+    /* 最小1.8rem 最大3.2rem */
+	font-size: clamp(1.8rem, calc(3.0vw + 1.5rem), 6.4rem);
     font-family: "Kaisei Decol", serif;
     background-color: green;
 }
 .Mokuji_text {
-    font-size: clamp(1.5rem, calc(1.0vw + 1.5rem), 2.0rem);
+    font-size: clamp(1.2rem, calc(0.25vw + 1.5rem), 1.8rem);
     font-family: "Kaisei Decol", serif;
     margin-bottom: 5%;
     margin-right: 5%;
