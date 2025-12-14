@@ -165,7 +165,7 @@ footer {
 
 
 /* ここからPC用のスタイル */
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1200px) {
     .jumpbutton {
     font-size: 1.5vw;
     font-family: "Kaisei Decol", serif;
