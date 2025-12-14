@@ -96,7 +96,7 @@ header a:hover {
     background-color: green;
 }
 .Mokuji_text {
-    font-size: clamp(1.2rem, calc(0.25vw + 1.5rem), 1.8rem);
+    font-size: 1.7vw;
     font-family: "Kaisei Decol", serif;
     margin-bottom: 5%;
     margin-right: 5%;
