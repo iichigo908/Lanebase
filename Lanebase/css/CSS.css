@@ -34,7 +34,7 @@ header a:hover {
 
 
 .jumpbutton {
-    font-size: 20px;
+    font-size: 5.0vw;
     font-family: "Kaisei Decol", serif;
     background-color: rgba(255, 255, 255, 0.5);
     color: black;
@@ -51,12 +51,12 @@ header a:hover {
 }
 
 .title {
-    font-size: 6.0vw;
+    font-size: 18.0vw;
     font-family: "Kaisei Decol", serif;
     color: white;
-    margin-left: 10%;
+    margin-left: 5vw
+    margin-right: 10vw
     text-shadow: 2px 2px 4px #000000;  
-    word-break: keep-all;
     white-space: normal;
     padding: 0 0 0 0;
     background-color: yellow;
@@ -92,16 +92,16 @@ header a:hover {
 }
 
 .Mokuji {
-    font-size: 15.0vw;
+    font-size: 10.0vw;
     font-family: "Kaisei Decol", serif;
     background-color: red;
     margin-left: 5vw;
 }
 .Mokuji_text {
-    font-size: 8.5vw;
+    font-size: 4.3vwvw;
     font-family: "Kaisei Decol", serif;
     margin-bottom: 5%;
-    margin-right: 40vw;
+    margin-right: 30vw;
     margin-left: 5vw;
     background-color: yellow;
 }
