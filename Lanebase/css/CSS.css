@@ -94,12 +94,14 @@ header a:hover {
     font-size: 5.0vw;
     font-family: "Kaisei Decol", serif;
     background-color: green;
+    margin-left: 5vw;
 }
 .Mokuji_text {
     font-size: 1.7vw;
     font-family: "Kaisei Decol", serif;
     margin-bottom: 5%;
-    margin-right: 5%;
+    margin-right: 40vw
+    margin-left: 5vw:
     background-color: red;
 }
 
