@@ -104,7 +104,8 @@ body {
 
 
 #searchInput {
-  width: 30%;
+  width: 50%;
+    height:30vh;
   margin: 8px auto 0;
   padding: 24px 20px;
   margin-bottom: 5px;
@@ -118,7 +119,7 @@ body {
   margin: 8px auto 0;
   text-align: left;
   padding: 0;
-  width: 35%;
+  width: 55%;
   border: 1px solid #ccc;
   border-radius: 4px;
   position: center;
